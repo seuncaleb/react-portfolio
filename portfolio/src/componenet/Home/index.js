@@ -8,7 +8,7 @@ function Home (){
         <div>
             <Header/>
             <div className="jumbotron">
-  <div className="container ">
+  <div className="container">
  <p className="lead">Hi, I am</p>
     <h1 className="display-3">Caleb Ibejigba.</h1>
     <h1 className="display-3">I build interesting things for the web.</h1>
