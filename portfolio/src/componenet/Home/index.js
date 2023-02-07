@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "../Header";
 import './style.css';
 
 function Home (){
 
     return(
         <div>
-            <Header/>
+           
             <div className="jumbotron">
   <div className="container">
  <p className="lead">Hi, I am</p>

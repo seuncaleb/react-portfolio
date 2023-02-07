@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css';
+import { Link} from 'react-router-dom'
 
 function Header(){
 
@@ -12,9 +13,9 @@ return(
   </button>
   <div className="collapse navbar-collapse justify-content-sm-end" id="navbarNavAltMarkup">
     <div className="navbar-nav w-25 justify-content-sm-between">
-      <a className="nav-item nav-link  " href="#">Home </a>
-      <a className="nav-item nav-link " href="#">Projects</a>
-      <a className="nav-item nav-link" href="#">Contact</a>
+      <Link to="/" className="nav-item nav-link  " >Home </Link>
+      <Link to="/Project" className="nav-item nav-link " >Projects</Link>
+      <Link to="/Contact" className="nav-item nav-link" >Contact</Link>
     </div>
   </div>
 </nav>
