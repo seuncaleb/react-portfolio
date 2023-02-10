@@ -45,3 +45,25 @@ body {
 
     padding: 120px;
 }
+
+
+
+  @media (max-width:768px) {
+    .headingtwo {
+    
+      font-size: 53px; /* 1.125rem is small enough, so RFS won't rescale this */
+    }
+  }
+
+  @media (max-width:579px) {
+    .headingtwo {
+    
+        padding-top: 12px;
+        padding-bottom: 12px;
+      font-size: 16px; /* 1.125rem is small enough, so RFS won't rescale this */
+    }
+
+    p{
+        font-size: 12px;
+    }
+  }

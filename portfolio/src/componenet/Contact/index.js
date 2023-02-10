@@ -30,7 +30,7 @@ function Contact() {
       <p className="m-5">
         {" "}
         Get in touch with me or send an email to{" "}
-        <a href="calebibejigba@gmail.com" className="links">calebibejigba@gmail.com</a>
+        <a href="mailto:calebibejigba@gmail.com" className="links">calebibejigba@gmail.com</a>
       </p>
 
       <form className="px-5">
@@ -38,7 +38,7 @@ function Contact() {
           <div className="col-sm-12  my-2">
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="inputName"
               placeholder="Name"
               onChange={handleInpute}
@@ -48,7 +48,7 @@ function Contact() {
           <div className="col-sm-12  my-2">
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="inputEmail3"
               placeholder="Email"
               onChange={handleInpute}
@@ -58,7 +58,7 @@ function Contact() {
           <div className="col-sm-12 my-2">
             <textarea
               type="text"
-              class="form-control"
+              className="form-control"
               id="inputMessage"
               placeholder="Leave a message"
               rows={5}
@@ -71,7 +71,7 @@ function Contact() {
           <div className="col-sm-10 my-2">
             <button
               type="submit"
-              class="btn btn-primary"
+              className="btn btn-primary"
               onClick={HandleFormSubmit}
             >
               Send Message
