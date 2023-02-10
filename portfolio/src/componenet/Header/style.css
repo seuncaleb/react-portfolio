@@ -1,4 +1,31 @@
 .navbar {
     margin-bottom: 0px;
+    padding-left:  120px;
+    padding-right:  120px;
+}
+
+.resBut{
+
+    color: white;
+    text-decoration: none;
+    background-color:#F9A825;
+    
+}
+
+nav {
+
+    background-color: #000000;
+}
+
+.navText {
+
+    color: #FFFFFF;
+}
+.navText:active{
+
+    color: #2E7D32;
+}
+.navh4 {
+    color: #2E7D32;
 }
 

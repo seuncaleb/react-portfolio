@@ -1,0 +1,26 @@
+.contact{
+
+    margin: 0px;
+    padding: 50px;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+
+    text-decoration: none;
+    
+}
+
+
+

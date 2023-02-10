@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "../Header";
 import Projects from "./Projects";
 import project from "./Projects/project.json";
 
@@ -10,8 +11,10 @@ class Project extends Component {
   render() {
     return (
       <div>
+        <Header/>
         <div className="container-fluid">
           <div className="row">
+          
             {this.state.project.map((project) => (
               <Projects
                 title={project.title}
