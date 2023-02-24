@@ -2,6 +2,9 @@
 
     margin: 0px;
     padding: 50px;
+    background-color: black;
+
+ flex: 1
 }
 
 
@@ -13,14 +16,19 @@
 
 .links {
     text-decoration: none;
-    color: black;
+    color: #F7DC6F ;
 }
 
 .links:hover{
 
     text-decoration: none;
+    color:#388E3C   ;
     
 }
 
 
+.message {
+
+    color: #ffff
+}
 

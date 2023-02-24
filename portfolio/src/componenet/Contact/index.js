@@ -3,6 +3,11 @@ import "./style.css";
 import Header from "../Header";
 
 function Contact() {
+
+  const info = [];
+
+  info.push(details)
+  
   const [details, setDetails] = useState({
     name: "",
     password: "",
@@ -23,11 +28,11 @@ function Contact() {
     alert(`Hello, ${details.name}, I'll respond to you soon`);
   };
   return (
-    <div>
+    <div className="vh-100 mb-0 wrapper">
       <Header/>
- <div className="contact container-fluid">
-      <h2 className="font-weight-bolder m-5"> Say Hello </h2>
-      <p className="m-5">
+ <div className="contact container-fluid mb-0">
+      <h2 className="font-weight-bolder m-5 message"> Say Hello </h2>
+      <p className="m-5 message">
         {" "}
         Get in touch with me or send an email to{" "}
         <a href="mailto:calebibejigba@gmail.com" className="links">calebibejigba@gmail.com</a>
