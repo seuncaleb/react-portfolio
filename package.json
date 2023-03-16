@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "I built a person porfolio displaying my work so far using react. In this portfolio I madr use of react routers, react form handling, and .map function to develop a functional website.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/seuncaleb/react-portfolio/issues"
   },
-  "homepage": "https://github.com/seuncaleb/react-portfolio#readme"
+  "homepage": "/",
+  "keywords": []
 }
