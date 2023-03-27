@@ -13,7 +13,7 @@ function Home (){
  <p className="lead text">Hi, I am</p>
     <h2 className="display-3 headingtwo ">Caleb Ibejigba.</h2>
     <h2 className="display-3 headingtwo" >I build interesting things for the web.</h2>
-    <p className=" pr-sm-5 py-sm-5 text">Front-end web developer leveraging a background in digital communications and strategy to provide unique perspectives on how users interact with websites and software.    Innovative problem-solver passionate about developing apps with a focus on mobile-first design and developmen</p>
+    <p className=" pr-sm-5 py-sm-5 text">Front-end web developer leveraging a background in digital communications and strategy to provide unique perspectives on how users interact with websites and software.    Innovative problem-solver passionate about developing apps with a focus on mobile-first design and development</p>
     
   </div>
 </div>

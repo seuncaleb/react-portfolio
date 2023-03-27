@@ -6,7 +6,7 @@ function Contact() {
 
   const info = [];
 
-  info.push(details)
+  
   
   const [details, setDetails] = useState({
     name: "",
@@ -14,6 +14,8 @@ function Contact() {
     message: "",
   });
 
+  info.push(details)
+  
   const handleInpute = (event) => {
     const { name, value } = event.target;
 

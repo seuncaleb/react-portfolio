@@ -1,47 +1,47 @@
 [
     {
       "id": 1,
-      "title": "Weather App",
+      "title": "",
       "live" : "https://seuncaleb.github.io/weather-app/",
       "github": "https://github.com/seuncaleb/weather-app",
-      "image": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGtuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      "image": "images/1.png"
     },
 
     {
         "id": 2,
-        "title": "Daily Planner",
+        "title": "",
         "live" : "https://seuncaleb.github.io/dailyplannerapp/",
         "github": "https://github.com/seuncaleb/dailyplannerapp",
-        "image": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGtuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        "image": "images/2.png"
       },
 
       {
         "id": 3,
-        "title": "Code Quiz",
+        "title": "",
         "live" : "https://seuncaleb.github.io/Codequiz/",
         "github": "https://github.com/seuncaleb/Codequiz",
-        "image": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGtuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        "image": "images/6.png"
         
       },
       {
         "id": 4,
-        "title": "Movie Helper",
+        "title": "",
         "live" : "https://liamljhoward.github.io/Movie-Helper/",
         "github": "https://github.com/LiamLJhoward/Movie-Helper",
-        "image": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGtuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        "image": "images/3.png"
       },
       {
         "id": 5,
-        "title": "Team Profile Generator",
-        "live" : "",
-        "github": "https://github.com/seuncaleb/Team-Profile-Generator-",
-        "image": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGtuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        "title": "",
+        "live" : "https://mnyplnr.netlify.app/",
+        "github": "https://github.com/LiamLJhoward/budget-calculator",
+        "image": "images/5.png"
       },
       {
         "id": 6,
-        "title": "Readme Generator",
-        "live" : "",
-        "github": "https://github.com/seuncaleb/Readme-generator-",
-        "image": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGtuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        "title": "",
+        "live" : "https://secretjouurnal.netlify.app/",
+        "github": "https://github.com/seuncaleb/my-journal",
+        "image": "images/4.png"
       }
 ]

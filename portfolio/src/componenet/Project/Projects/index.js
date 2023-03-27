@@ -16,8 +16,8 @@ function Projects (props){
   <img className="card-img-top" src={props.image} alt={props.title}></img>
   
   <div>
-  <a href={props.github} className="card-link linkss">Github</a>
-  <a href={props.live} className="card-link linkss">Live Link</a>
+  <a href={props.github} target="_blank" rel="noreferrer" className="card-link linkss">Github</a>
+  <a href={props.live} target="_blank" rel="noreferrer"  className="card-link linkss">Live Link</a>
   </div>
 </div>
         
