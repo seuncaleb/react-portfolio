@@ -53,6 +53,12 @@ body {
     
       font-size: 53px; /* 1.125rem is small enough, so RFS won't rescale this */
     }
+
+    .jumbotron {
+      padding: 0;
+    }
+
+   
   }
 
   @media (max-width:579px) {
