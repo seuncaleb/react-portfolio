@@ -1,6 +1,6 @@
 .background {
 
-    background-color: #000000;
+    background-color: #28282B;
 }
 
 .title{
@@ -9,5 +9,10 @@
 
 .linkss{
 
-    color: #FFFFFF;
+    color: #E6E1D4;
+}
+
+.linkss:hover {
+
+    color: #388E3C;
 }

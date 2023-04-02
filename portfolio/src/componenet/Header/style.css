@@ -6,22 +6,28 @@
 
 .resBut{
 
-    color: white;
+    color: #E6E1D4;
     text-decoration: none;
     background-color:#F9A825;
     
 }
 
+
 nav {
 
-    background-color: #000000;
+    background-color: #28282B;
 }
 
 .navText {
 
-    color: #FFFFFF;
+    color: #E6E1D4;
 }
 .navText:active{
+
+    color: #2E7D32;
+}
+
+.navText:hover {
 
     color: #2E7D32;
 }

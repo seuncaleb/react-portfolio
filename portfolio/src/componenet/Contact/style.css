@@ -2,7 +2,7 @@
 
     margin: 0px;
     padding: 50px;
-    background-color: black;
+    background-color: #28282B ;
 
  flex: 1
 }
@@ -29,6 +29,13 @@
 
 .message {
 
-    color: #ffff
+    color: #E6E1D4
 }
 
+@media (max-width:768px) {
+   
+    .contact{
+
+        padding: 0px;
+    }
+  }
