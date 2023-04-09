@@ -26,18 +26,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    margin-left: 0px;
+    align-items: center;
+   
    
    
 }
 
 .headingtwo{
-    color: #388E3C   ;
+    color: #F9A825   ;
+    font-family: 'Anton', sans-serif;
+    font-size: 400px;
+    text-align: center;
 }
 
 .text {
     color: #E6E1D4;
+    text-align: center;
+    
 
 }
 
@@ -48,10 +53,10 @@ body {
 
 
 
-  @media (max-width:768px) {
+  @media (max-width:1280px) {
     .headingtwo {
     
-      font-size: 53px; /* 1.125rem is small enough, so RFS won't rescale this */
+      font-size: 150px; /* 1.125rem is small enough, so RFS won't rescale this */
     }
 
     .jumbotron {
@@ -66,7 +71,7 @@ body {
     
         padding-top: 12px;
         padding-bottom: 12px;
-      font-size: 16px; /* 1.125rem is small enough, so RFS won't rescale this */
+      font-size: 60px; /* 1.125rem is small enough, so RFS won't rescale this */
     }
 
     p{

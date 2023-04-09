@@ -32,6 +32,12 @@
     color: #E6E1D4
 }
 
+.btn {
+
+    color: #E6E1D4;
+    background-color: #388E3C;
+}
+
 @media (max-width:768px) {
    
     .contact{

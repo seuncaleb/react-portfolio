@@ -1,26 +1,33 @@
 import React from "react";
 import Header from "../Header";
-import './style.css';
+import { motion } from "framer-motion";
 
+import "./style.css";
 
-function Home (){
+function Home() {
+  const variant = {
+    hidden: { y: "-100%", opacity: 0 },
+    visible: { y: 0, opacity: 1 },
+  };
+  return (
+    <div className="vh-100 mb-0 wrapper">
+      <Header />
+      <div className="jumbotron jumbotron-fluid  ">
+        <div className="container">
+          <motion.h2 className="display-3 headingtwo" 
+        variants={variant}
+        initial="hidden"
+        animate="visible"
+        transition={{ duration: 1 }}>SEUNCALEB</motion.h2>
 
-    return(
-        <div className="vh-100 mb-0 wrapper">
-           <Header/>
-            <div className="jumbotron jumbotron-fluid  ">
-  <div className="container">
- <p className="lead text">Hi, I am</p>
-    <h2 className="display-3 headingtwo ">Caleb Ibejigba.</h2>
-    <h2 className="display-3 headingtwo" >I build interesting things for the web.</h2>
-    <p className=" pr-sm-5 py-sm-5 text">Front-end web developer leveraging a background in digital communications and strategy to provide unique perspectives on how users interact with websites and software.    Innovative problem-solver passionate about developing apps with a focus on mobile-first design and development</p>
-    
-  </div>
-</div>
-
-          
+          <p className=" pr-sm-5 py-sm-5 text text-center">
+            Hi, I'm Caleb Ibejigba, a front-end web developer making interesting
+            mobile friendly, and responsive websites{" "}
+          </p>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

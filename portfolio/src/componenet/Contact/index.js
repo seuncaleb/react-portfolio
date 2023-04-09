@@ -78,7 +78,7 @@ function Contact() {
           <div className="col-sm-10 my-2">
             <button
               type="submit"
-              className="btn btn-primary"
+              className="btn"
               onClick={HandleFormSubmit}
             >
               Send Message
