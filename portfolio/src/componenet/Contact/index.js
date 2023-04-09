@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import Header from "../Header";
+import {motion} from "framer-motion"
 
 function Contact() {
 
@@ -30,7 +31,11 @@ function Contact() {
     alert(`Hello, ${details.name}, I'll respond to you soon`);
   };
   return (
-    <div className="vh-100 mb-0 wrapper">
+    <motion.div className="vh-100 mb-0 wrapper"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 0.5 }}>
       <Header/>
  <div className="contact container-fluid mb-0">
       <h2 className="font-weight-bolder m-5 message"> Say Hello </h2>
@@ -90,17 +95,17 @@ function Contact() {
       <div className="container-fluid">
         <div className="row ">
           <div className="col-6 d-flex justify-content-center ">
-          <a href="https://github.com/seuncaleb" className="links">   <div className="fa-brands fa-github  p-2"></div></a>
+          <a href="https://github.com/seuncaleb" className="links">   <div className="fa-brands fa-github  p-2"></div>Seuncaleb</a>
             
           </div>
-          <div className="col-6 d-flex justify-content-center">
-          <a href="https://www.linkedin.com/in/calebibejigba/" className="links">   <div className="fa-brands fa-linkedin-in p-2"></div></a>
+          <div className="col-6 d-flex justify-content-center"> 
+          <a href="https://www.linkedin.com/in/calebibejigba/" className="links">   <div className="fa-brands fa-linkedin-in p-2"></div> Caleb Ibejigba</a>
            
           </div>
         </div>
       </div>
     </div>
-    </div>
+    </motion.div>
    
   );
 }

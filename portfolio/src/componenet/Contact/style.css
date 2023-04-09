@@ -1,7 +1,8 @@
 .contact{
 
     margin: 0px;
-    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     background-color: #28282B ;
 
  flex: 1
@@ -21,8 +22,8 @@
 
 .links:hover{
 
-    text-decoration: none;
-    color:#388E3C   ;
+    text-decoration: underline;
+   color: #F7DC6F;
     
 }
 
@@ -35,7 +36,11 @@
 .btn {
 
     color: #E6E1D4;
-    background-color: #388E3C;
+    background-color:#F9A825;
+}
+
+.btn:hover{
+    color: #F7DC6F;
 }
 
 @media (max-width:768px) {

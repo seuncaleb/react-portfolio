@@ -3,6 +3,8 @@ import Header from "../Header";
 import Projects from "./Projects";
 import project from "./Projects/project.json";
 import "./style.css"
+import {motion} from "framer-motion";
+
 class Project extends Component {
   state = {
     project,
@@ -10,7 +12,11 @@ class Project extends Component {
 
   render() {
     return (
-      <div>
+      <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}>
         <Header/>
         <div className="container-fluid project-style">
           <div className="row">
@@ -26,7 +32,7 @@ class Project extends Component {
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
     );
   }
 }

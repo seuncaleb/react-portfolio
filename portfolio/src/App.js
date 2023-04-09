@@ -1,23 +1,15 @@
 import React from "react";
-import Home from "./componenet/Home";
-import Project from "./componenet/Project";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Contact from "./componenet/Contact";
+
+
+import { BrowserRouter as Router } from "react-router-dom";
+
+import Animated from "./componenet/Animated/Animated";
 
 function App() {
   return (
     <Router>
      
-        
-      <div className="content">
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-
-          <Route exact path="/Project" element={<Project />} />
-
-          <Route exact path="/Contact" element={<Contact />} />
-        </Routes>
-      </div>
+        <Animated/>
     </Router>
   );
 }

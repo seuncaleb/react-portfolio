@@ -10,7 +10,11 @@ function Home() {
     visible: { y: 0, opacity: 1 },
   };
   return (
-    <div className="vh-100 mb-0 wrapper">
+    <motion.div className="vh-100 mb-0 wrapper"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 0.2 }}>
       <Header />
       <div className="jumbotron jumbotron-fluid  ">
         <div className="container">
@@ -26,7 +30,7 @@ function Home() {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
