@@ -30,7 +30,7 @@ function Contact() {
     alert(`Hello, ${details.name}, I'll respond to you soon`);
   };
   return (
-    <motion.div className="vh-100 mb-0 wrapper">
+    <motion.div className=" mb-0 wrapper">
     
  <div className="contact container-fluid mb-0">
       <h2 className="font-weight-bolder m-5 message"> Say Hello </h2>

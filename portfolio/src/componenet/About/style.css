@@ -1,9 +1,11 @@
 .container-background {
     
         background-color:  #28282B;
-        height: 100%;
-        flex: 1;
-        margin-bottom: 0px;   
+        height: auto;
+          flex: 1;
+             margin-bottom: 0px;
+        
+              
 }
 
 .headingtext {
