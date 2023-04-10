@@ -11,11 +11,7 @@ function Home() {
   };
   return (
 
-    <motion.div className="vh-100 mb-0"
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0 }}
-    transition={{ duration: 0.2 }}>
+    <motion.div className="vh-100 mb-0">
     
      
       

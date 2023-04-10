@@ -6,7 +6,7 @@ function About (){
     return (
         <div className=" container-background">
             <h2 className= "headingtext pl-5"> About Me </h2>
-            <div className="container-fluid d-flex p-5 align-self-center">
+            <div className="container-fluid  p-5">
             <div className="row">
                 <div className="col-md-4  text-center">
                 <img src="images/me.png" class="img-fluid pic" alt="caleb ibejigba with a yellow background"/>
