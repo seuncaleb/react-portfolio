@@ -1,25 +1,27 @@
 .background {
-
-    background-color: #28282B;
+  background-color: #28282b;
 }
 
-.title{
-    color: #388E3C;
+.title {
+  color: #388e3c;
 }
 
-.linkss{
-
-    color: #E6E1D4;
+.linkss {
+  color: #e6e1d4;
 }
 
 .linkss:hover {
-
-    color: #388E3C;
+  color: #388e3c;
 }
 
 .project-style {
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #28282b;
+}
 
-    padding-left: 150px;
-    padding-right: 150px;
-    background-color: #28282B;
+@media (max-width: 1280px) {
+  .project-style {
+    padding: 15px;
+  }
 }

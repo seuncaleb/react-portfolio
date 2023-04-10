@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../Header";
 import { motion } from "framer-motion";
+
 
 import "./style.css";
 
@@ -10,12 +10,15 @@ function Home() {
     visible: { y: 0, opacity: 1 },
   };
   return (
-    <motion.div className="vh-100 mb-0 wrapper"
+
+    <motion.div className="vh-100 mb-0"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}
     transition={{ duration: 0.2 }}>
-      <Header />
+    
+     
+      
       <div className="jumbotron jumbotron-fluid  ">
         <div className="container">
           <motion.h2 className="display-3 headingtwo" 

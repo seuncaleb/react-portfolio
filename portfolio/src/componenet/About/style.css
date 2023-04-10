@@ -1,0 +1,26 @@
+.container-background {
+    
+        background-color:  #28282B;
+        height: 100%;
+        flex: 1;
+        margin-bottom: 0px;   
+}
+
+.headingtext {
+  color: #e6e1d4;
+}
+
+.text {
+  color: #e6e1d4;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pic{
+
+    height: 450px;
+}
+
+
+
+

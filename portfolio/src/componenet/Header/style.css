@@ -1,51 +1,41 @@
 .navbar {
-    margin-bottom: 0px;
-    padding-left:  120px;
-    padding-right:  120px;
+  margin-bottom: 0px;
+  padding-left: 120px;
+  padding-right: 200px;
 }
 
-.resBut{
-
-    color: #E6E1D4;
-    text-decoration: none;
-    background-color:#F9A825;
-    border-radius: 5px;
-    
+.resBut {
+  color: #e6e1d4;
+  text-decoration: none;
+  background-color: #f9a825;
+  border-radius: 5px;
 }
-
-
-
 
 nav {
-
-    background-color: #28282B;
+  background-color: #28282b;
 }
 
 .navText {
-
-    color: #E6E1D4;
+  color: #e6e1d4;
 }
-.navText:active{
-
-    color: #F9A825;
+.navText:active {
+  color: #f9a825;
 }
 
 .navText:hover {
-
-    color: #F7DC6F;
+  color: #f7dc6f;
 }
 .navh4 {
-    color: #E6E1D4;
+  color: #e6e1d4;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-right: 12px;
+    padding-left: 12px;
   }
-  
-  @media (max-width:768px) {
-   
-    .navbar{
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-  }
+}

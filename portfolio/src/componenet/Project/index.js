@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import Header from "../Header";
 import Projects from "./Projects";
 import project from "./Projects/project.json";
-import "./style.css"
 import {motion} from "framer-motion";
 
 class Project extends Component {
@@ -17,7 +15,6 @@ class Project extends Component {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}>
-        <Header/>
         <div className="container-fluid project-style">
           <div className="row">
           

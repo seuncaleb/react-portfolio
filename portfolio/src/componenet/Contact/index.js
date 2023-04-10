@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./style.css";
-import Header from "../Header";
 import {motion} from "framer-motion"
 
 function Contact() {
@@ -36,7 +35,7 @@ function Contact() {
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}
     transition={{ duration: 0.5 }}>
-      <Header/>
+    
  <div className="contact container-fluid mb-0">
       <h2 className="font-weight-bolder m-5 message"> Say Hello </h2>
       <p className="m-5 message">
