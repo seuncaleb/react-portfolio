@@ -17,6 +17,10 @@ function About (){
                     I love to learn new things, and nothing is difficult if you give it the right amount of attention. </p>
 
                     <p className="text text-left"> Apart from writing lines of code, I love to read fictional literature. </p>
+
+                    <p className="text text-left"> <span className="skills">SKILLS:</span> Html, Css, Bootstrap, Node.js, jQuery, APIs, React.js, Git, Github
+
+                    </p>
                 </div>
             </div>
             </div>
