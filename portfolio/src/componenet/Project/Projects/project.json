@@ -1,47 +1,59 @@
 [
     {
       "id": 1,
-      "title": "",
+      "title": "WEATHER APP",
       "live" : "https://seuncaleb.github.io/weather-app/",
       "github": "https://github.com/seuncaleb/weather-app",
-      "image": "images/1.png"
+      "image": "images/1.png",
+      "description": "This weather app gives users the ability to search for the current weather condition of any location of their choice with a 5 day forecast. This project made use of the weather api to get the data for the project.",
+      "technology": "HTML, CSS , BOOTSTRAP, JQUERY, API"
     },
 
     {
         "id": 2,
-        "title": "",
+        "title": "DAILY PLANNER",
         "live" : "https://seuncaleb.github.io/dailyplannerapp/",
         "github": "https://github.com/seuncaleb/dailyplannerapp",
-        "image": "images/2.png"
+        "image": "images/2.png",
+        "description": "This is a daily planner that allows you add task for every working hour and tracks past, current and future time. ",
+      "technology": "HTML, CSS , BOOTSTRAP, JQUERY"
       },
 
       {
         "id": 3,
-        "title": "",
+        "title": "CODE QUIZ",
         "live" : "https://seuncaleb.github.io/Codequiz/",
         "github": "https://github.com/seuncaleb/Codequiz",
-        "image": "images/6.png"
+        "image": "images/6.png",
+        "description": "This app displays quiz questions and gives you a total score after the count down ",
+        "technology": "HTML, CSS , BOOTSTRAP, JQUERY"
         
       },
       {
         "id": 4,
-        "title": "",
+        "title": "MOVIE HELPER",
         "live" : "https://liamljhoward.github.io/Movie-Helper/",
         "github": "https://github.com/LiamLJhoward/Movie-Helper",
-        "image": "images/3.png"
+        "image": "images/3.png",
+        "description": "A website where you type in a movie, and it retrieves the films poster, a trailer, and a short synopsis. ",
+        "technology": "HTML, CSS , BOOTSTRAP, JQUERY, API"
       },
       {
         "id": 5,
-        "title": "",
+        "title": "BUDGET CALCULATOR",
         "live" : "https://mnyplnr.netlify.app/",
         "github": "https://github.com/LiamLJhoward/budget-calculator",
-        "image": "images/5.png"
+        "image": "images/5.png",
+        "description": "MoneyPlanner helps you plan your finances. It will track your incomings, such as wages, interest, dividends and more. It will also track your outgoings, such as rent/mortgage payment, energy bills, water, internet, subscriptions etc. ",
+        "technology": "HTML, CSS , BOOTSTRAP, JQUERY, API, REACT, NODE"
       },
       {
         "id": 6,
-        "title": "",
+        "title": "MY JOURNAL",
         "live" : "https://secretjouurnal.netlify.app/",
         "github": "https://github.com/seuncaleb/my-journal",
-        "image": "images/4.png"
+        "image": "images/4.png",
+        "description": "This Application helps you keep track of all the beautiful memories you want to keep forever ",
+        "technology": "HTML, CSS , BOOTSTRAP, REACT, NODE"
       }
 ]

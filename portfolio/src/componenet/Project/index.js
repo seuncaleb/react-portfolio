@@ -12,7 +12,7 @@ class Project extends Component {
     return (
       <motion.div>
         <div className="container-fluid project-style">
-          <div className="row">
+          
           
             {this.state.project.map((project) => (
               <Projects
@@ -21,9 +21,11 @@ class Project extends Component {
                 github={project.github}
                 live={project.live}
                 key={project.id}
+                description={project.description}
+                technology ={project.technology}
               />
             ))}
-          </div>
+          
         </div>
       </motion.div>
     );

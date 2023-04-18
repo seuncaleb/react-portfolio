@@ -2,16 +2,17 @@
   background-color: #28282b;
 }
 
-.title {
-  color: #388e3c;
-}
+
 
 .linkss {
   color: #e6e1d4;
+  background-color: #F9A825;
+  padding: 0.4rem;
+  border-radius: 5px;
 }
 
 .linkss:hover {
-  color: #F9A825;
+  color: #f7dc6f;
 }
 
 .project-style {
@@ -20,8 +21,22 @@
   background-color: #28282b;
 }
 
+
+
 @media (max-width: 1280px) {
   .project-style {
     padding: 15px;
   }
+}
+
+.project-text{
+  color: #e6e1d4;
+}
+
+.technology-text{
+  color: #F9A825;
+}
+
+.title{
+  color: #F9A825;
 }
